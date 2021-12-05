@@ -4,6 +4,7 @@
 > * [Items.py](#items.py)
 > * [Pipeline](#pipeline)
 > * [Settings](#settings)
+> * [Smth else](#smth_else)
 
 ## How will we go?
 I suggest the following procedure, we will touch all the files, which I editted, one by one. I will make
@@ -39,3 +40,12 @@ Before setting `ROBOTSTXT_OBEY` to `False` I tried to use proxies, user_agent an
 I tried to login, but to login I need normal password and login (csr I get it), I couldn't find register page
 (to be honest, I didn't tried much), therefore I used this option.
 
+## Smth else
+Now we partially covered all files, but we didn't talked about spiders,
+For more details [click here](https://github.com/Amirka-Kh/first_scrapy/tree/main/comps_scraper/comps_scraper/spiders)
+
+Also, [here](https://github.com/Amirka-Kh/first_scrapy/blob/main/comps_scraper/all_log_info.log) you can check `all_log_info.log` file (file where I was storing logs)
+I implemented logs only in spiders. Why? Because it is Sunday and it is 23:43, I added 
+logging around 22:00.
+
+In chernovik is the code which I deleted from `items.py` (these are most about item loader).
